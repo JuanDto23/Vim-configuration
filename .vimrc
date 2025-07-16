@@ -42,9 +42,9 @@ set smartcase
 " expandtab:	when on use space instead of tab
 " textwidth:	text wrap width
 " autoindent:	autoindent in new line
-set tabstop	    =2
+set tabstop	=2
 set softtabstop	=2
 set shiftwidth	=2
-set textwidth	  =90
+set textwidth	=90
 set expandtab
 set autoindent
