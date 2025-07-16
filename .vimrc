@@ -8,7 +8,7 @@ Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 set background=dark
-let g:gruvbox_contrast_dark='medium'
+let g:gruvbox_contrast_dark='hard'
 let g:airline_theme='gruvbox'
 let g:gruvbox_termcolors='256'
 colorscheme gruvbox
@@ -27,7 +27,6 @@ set number
 
 " highlight current line "
 set cursorline
-:highlight Cursorline term=underline ctermbg=237 guibg=#3c3836
 
 " enable highlight search pattern "
 set hlsearch
@@ -43,9 +42,9 @@ set smartcase
 " expandtab:	when on use space instead of tab
 " textwidth:	text wrap width
 " autoindent:	autoindent in new line
-set tabstop	=2
+set tabstop	    =2
 set softtabstop	=2
 set shiftwidth	=2
-set textwidth	=90
+set textwidth	  =90
 set expandtab
 set autoindent
